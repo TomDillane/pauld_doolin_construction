@@ -1,0 +1,374 @@
+/* Header */
+
+header {
+  background-color: rgb(56, 55, 55);
+}
+
+nav h1 {
+  color: #f0f8ffec;
+  font-family: "Dancing Script", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 175%;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  padding-right: 50px;
+}
+
+nav a {
+  color: #f0f8ffec;
+  font-family: "Kufam", sans-serif;
+}
+
+nav a:hover {
+  color: #e60e0ee3;
+}
+
+/* Footer */
+
+.social-media {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.social-media-item {
+  display: inline-block;
+  padding-right: 45px;
+  font-size: 30px;
+}
+
+footer {
+  background-color: rgb(56, 55, 55);
+  color: #f0f8ffec;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.fab {
+  color: #f0f8ffec;
+}
+
+.fab:hover {
+  color: #e60e0ee3;
+}
+
+.footer-content {
+  text-align: center;
+  justify-content: center;
+}
+
+/* Index */
+
+section {
+  padding-top: 75px;
+}
+
+/* Landing */
+
+.landing-image {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+/*
+.carousel-container {
+  box-sizing: border-box;
+}
+
+.carousel-item {
+  transition-duration: 0.9s;
+}
+
+.main-item img {
+  width: 100%;
+  height: auto;
+  max-width: 55vw;
+  margin: auto;
+}
+
+.prev-static,
+.next-static {
+  width: 100%;
+  height: auto;
+  max-width: 50vw;
+  margin: auto;
+  box-shadow: 5px 5px 5px #383737;
+}
+
+.prev-container,
+.next-container {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+#carousel-art-slide-main {
+  background-color: #f0f8ffec;
+  overflow: hidden;
+}
+
+*/
+
+/* Testimonial */
+
+.testimonial {
+  background-color: rgb(56, 55, 55);
+  padding-bottom: 45px;
+  position: relative;
+}
+
+.blockquote {
+  color: #f0f8ffec;
+  margin-top: 60px;
+  font-family: "Kufam", sans-serif;
+}
+
+.blockquote i {
+  margin-bottom: 15px;
+}
+
+.blockquote p {
+  margin-bottom: 80px;
+}
+
+.blockquote h3 {
+  color: #000;
+  position: absolute;
+  bottom: 0;
+}
+
+/* Studio Tour */
+
+.studio-visit {
+  background: url("../images/studio_4.jpg") no-repeat;
+  background-size: cover;
+  color: #f0f8ffec;
+  font-family: "Kufam", sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.btn-danger {
+  background-color: #e60e0ee3;
+  color: #f0f8ffec;
+  font-family: "Kufam", sans-serif;
+  font-weight: bold;
+}
+
+/* Portfolio */
+
+.studio-intro {
+  background-color: rgb(56, 55, 55);
+  color: #f0f8ffec;
+  font-family: "Cedarville Cursive", sans-serif;
+  font-size: x-large;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 75px;
+  border-top-style: solid;
+  border-top-color: #e60e0ee3;
+}
+
+.gallery {
+  background-color: #f0f8ffec;
+  padding-top: 1%;
+  margin-bottom: 15px;
+}
+
+.picture {
+  position: relative;
+  margin: auto;
+  max-height: 50%;
+  max-width: 50%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  overflow: hidden;
+  padding: 0;
+  display: block;
+  box-shadow: 5px 5px 5px #383737;
+}
+
+.portfolio-pic {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.pic-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 15px 15px 15px 15px;
+  background-color: rgba(56, 55, 55, 0.7);
+  color: #f0f8ffec;
+  font-family: "Kufam", sans-serif;
+}
+
+.title {
+  margin: auto;
+  overflow: hidden;
+  display: block;
+  padding: 0;
+}
+
+.card {
+  padding: 15px 15px 15px 15px;
+  background-color: rgb(56, 55, 55);
+  color: #f0f8ffec;
+  font-family: "Kufam", sans-serif;
+}
+
+/* Contact Form */
+
+.contact-comms {
+  background-color: rgb(56, 55, 55);
+  color: #f0f8ffec;
+  font-family: "Kufam", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-top-style: solid;
+  border-top-color: #e60e0ee3;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.contact-comms h5 {
+  color: #000;
+  font-weight: bold;
+}
+
+
+.contact-background {
+  background: url("../images/contact_image_v1.jpg") no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: auto;
+}
+
+
+.form-item {
+  margin-bottom: 2px;
+  background: rgba(56, 55, 55, 1);
+  color: #000000;
+}
+
+.contact-form {
+  width: 350px;
+  max-width: 85vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: auto;
+}
+
+.contact-button {
+  width: 60%;
+}
+
+.tools-icon {
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  opacity: 0.8;
+}
+
+.updates {
+  background-color: rgb(56, 55, 55);
+  color: #f0f8ffec;
+  font-family: "Kufam", sans-serif;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom-style: solid;
+  border-bottom-color: #e60e0ee3;
+}
+
+.updates h3 {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.updates h5 {
+  color: #000;
+  font-weight: bold;
+}
+
+/* Media Queries */
+
+/* # 576 */
+
+@media screen and (min-width: 576px) {
+  .navbar-brand {
+    padding-left: 50px;
+  }
+}
+
+/* # 768 */
+
+@media (min-width: 768px) {
+  .blockquote:first-of-type {
+    border-right: 5px solid #e60e0ee3;
+  }
+  .testimonial {
+    border-bottom: 5px solid #e60e0ee3;
+  }
+}
+
+@media (max-width: 768px) {
+  .blockquote {
+    border-bottom: 2px solid #e60e0ee3;
+    border-bottom-style: inset;
+  }
+}
+
+/* # 992 */
+
+@media only screen and (min-width: 992px) {
+  .copyright {
+    top: 20px;
+  }
+  .blockquote:not(:last-of-type) {
+    border-right: 5px solid #e60e0ee3;
+  }
+  .studio-blurb {
+    text-align: center;
+  }
+  .contact-background {
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(56, 55, 55);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .social-media-item {
+    padding-right: 10%;
+  }
+  .main-item img {
+    width: 100%;
+    max-width: 85vw;
+    max-height: 85vh;
+  }
+  .picture {
+    max-height: 85%;
+    max-width: 85%;
+  }
+}
+
+/* # 1200 */
+
+@media only screen and (max-width: 1200px) {
+  .carousel-inner,
+  .carousel-container {
+    background-color: rgb(56, 55, 55);
+  }
+}
